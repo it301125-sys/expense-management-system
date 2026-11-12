@@ -2,6 +2,17 @@
 
 A full-stack web application that helps users manage their personal expenses, organize spending, set monthly budgets, and understand their financial habits.
 
+## Live Demo
+
+🚀 **Live Application:** 
+https://expense-management-system-seven-tan.vercel.app/
+
+🖥️ **Backend API:**
+https://expense-management-system-jcqu.onrender.com/
+
+📂 **Source Code:**
+https://github.com/it301125-sys/expense-management-system
+
 ## Features
 
 - **User Authentication:** Register, login, and securely manage accounts.

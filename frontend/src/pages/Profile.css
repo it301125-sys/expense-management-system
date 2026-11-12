@@ -1,0 +1,167 @@
+
+.profile-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.profile-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.profile-card {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.profile-avatar {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.profile-details {
+    text-align: left;
+    margin: 25px 0;
+}
+
+.profile-details p {
+    margin: 15px 0;
+}
+
+.profile-card button {
+    padding: 12px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.profile-details input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.profile-details label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+.profile-success {
+    color: #16a34a;
+    margin-top: 15px;
+}
+
+.profile-error {
+    color: #dc2626;
+    margin-top: 15px;
+}
+/* Responsive Profile Page */
+@media (max-width: 600px) {
+    .profile-container {
+        margin: 20px 12px;
+        padding: 10px;
+    }
+
+    .profile-container h1 {
+        font-size: 24px;
+    }
+
+    .profile-card {
+        padding: 20px 16px;
+    }
+
+    .profile-avatar {
+        width: 70px;
+        height: 70px;
+        font-size: 28px;
+    }
+
+    .profile-details input {
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+    }
+
+    .profile-card button {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+}
+.profile-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.profile-actions button {
+    margin: 0;
+}
+/* Delete Account Section */
+.delete-account-section {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #fecaca;
+    border-radius: 10px;
+    background-color: #fff7f7;
+    text-align: center;
+}
+
+.delete-account-section h3 {
+    color: #dc2626;
+    margin-bottom: 10px;
+}
+
+.delete-account-section p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.delete-account-section input {
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.delete-account-button {
+    background-color: #dc2626;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-account-button:hover {
+    background-color: #b91c1c;
+}
+
+.delete-account-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

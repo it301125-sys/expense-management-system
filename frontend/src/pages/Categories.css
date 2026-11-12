@@ -1,0 +1,145 @@
+.categories-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.categories-container h2 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 25px;
+}
+
+.categories-back-button {
+    background: #64748b;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.categories-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.categories-form input {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.categories-form button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.categories-container h3 {
+    color: #334155;
+    margin-bottom: 15px;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    margin-bottom: 10px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 7px;
+}
+
+.category-item span {
+    font-weight: 500;
+    color: #334155;
+}
+
+.category-delete-button {
+    background: #dc2626;
+    color: white;
+    border: none;
+    padding: 7px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.category-delete-button:hover {
+    background: #b91c1c;
+}
+
+.categories-message {
+    color: #15803d;
+}
+
+.categories-error {
+    color: #dc2626;
+}
+
+@media (max-width: 600px) {
+    .categories-container {
+        margin: 20px 12px;
+        padding: 18px 14px;
+        box-sizing: border-box;
+    }
+
+    .categories-container h2 {
+        font-size: 23px;
+    }
+
+    .categories-form {
+        flex-direction: column;
+    }
+
+    .categories-form input,
+    .categories-form button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .category-item {
+        gap: 10px;
+        padding: 12px;
+        flex-wrap: wrap;
+    }
+
+    .category-item span {
+        overflow-wrap: anywhere;
+    }
+
+    .category-delete-button {
+        padding: 8px 12px;
+    }
+}
+.category-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.default-category-label {
+    background-color: #dbeafe;
+    color: #1d4ed8;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px;
+}

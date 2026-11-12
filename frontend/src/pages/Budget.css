@@ -1,0 +1,66 @@
+
+.budget-page {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.budget-page h1 {
+    margin-bottom: 10px;
+}
+
+.budget-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.budget-page input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.budget-page button {
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #2563eb;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.budget-page button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+/* Responsive Budget Page */
+@media (max-width: 600px) {
+    .budget-page {
+        width: auto;
+        max-width: none;
+        margin: 20px 12px;
+        padding: 20px 16px;
+        box-sizing: border-box;
+    }
+
+    .budget-page h1 {
+        font-size: 24px;
+    }
+
+    .budget-page input,
+    .budget-page button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+.budget-back-button {
+    display: block;
+    margin: 20px auto 10px;
+}

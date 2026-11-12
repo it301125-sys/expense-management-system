@@ -1,0 +1,124 @@
+
+.register-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+.register-form {
+    width: 100%;
+    max-width: 420px;
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.register-form h1 {
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+.register-form p {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 25px;
+}
+
+.register-form label {
+    display: block;
+    margin: 15px 0 7px;
+    color: #334155;
+    font-weight: 600;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 25px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background: #1d4ed8;
+}
+
+.register-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.register-message {
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.register-login-link {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register-login-link span {
+    color: #2563eb;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.register-login-link span:hover {
+    text-decoration: underline;
+}
+/* Mobile Responsive Design */
+@media (max-width: 600px) {
+    .register-container {
+        padding: 15px;
+        align-items: center;
+    }
+
+    .register-form {
+        padding: 25px 18px;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .register-form h1 {
+        font-size: 25px;
+    }
+
+    .register-form input {
+        font-size: 16px;
+    }
+
+    .register-form button {
+        padding: 12px;
+    }
+
+    .register-login-link {
+        font-size: 14px;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .register-login-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+}

@@ -1,0 +1,109 @@
+.add-expense-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f1f5f9;
+    padding: 20px;
+}
+
+.add-expense-form {
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.add-expense-form h1 {
+    text-align: center;
+    color: #1e293b;
+}
+
+.add-expense-form p {
+    text-align: center;
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+.add-expense-form label {
+    display: block;
+    margin: 15px 0 7px;
+    font-weight: 600;
+    color: #334155;
+}
+
+.add-expense-form input,
+.add-expense-form select,
+.add-expense-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.add-expense-form textarea {
+    resize: vertical;
+}
+
+.add-expense-form button {
+    width: 100%;
+    padding: 13px;
+    margin-top: 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-expense-form button:hover {
+    background: #1d4ed8;
+}
+
+.add-expense-form button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.add-expense-form .back-button {
+    background: #64748b;
+}
+
+.add-expense-form .back-button:hover {
+    background: #475569;
+}
+
+.expense-message {
+    font-weight: 600;
+}
+/* Responsive Add Expense Page */
+@media (max-width: 600px) {
+    .add-expense-container {
+        padding: 12px;
+        align-items: flex-start;
+    }
+
+    .add-expense-form {
+        padding: 20px 16px;
+        margin-top: 15px;
+    }
+
+    .add-expense-form h1 {
+        font-size: 24px;
+    }
+
+    .add-expense-form input,
+    .add-expense-form select,
+    .add-expense-form textarea {
+        font-size: 16px;
+    }
+
+    .add-expense-form button {
+        padding: 12px;
+    }
+}

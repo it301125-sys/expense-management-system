@@ -140,3 +140,20 @@ The frontend runs at:
 ## Author
 
 Developed as a Full Stack Development Capstone Project.
+
+## Application Screenshots
+
+### Dashboard
+![Expenso Dashboard](screenshots/dashboard.png)
+
+### Transactions
+![Expenso Transactions](screenshots/transactions.png)
+
+### Analytics
+![Expenso Analytics](screenshots/analytics.png)
+
+### Budget
+![Expenso Budget](screenshots/budget.png)
+
+### Categories
+![Expenso Categories](screenshots/categories.png)
